@@ -21,8 +21,8 @@ header:hover{
 .topleft{
   font-family: $font-stack;
   position: absolute;
-  top: 10px;
-  margin-left: 10px;
+  top: 2%;
+  margin-left: 1%;
 
   a{
     color: $navy-accent;
@@ -31,12 +31,12 @@ header:hover{
 }
 .topright{
   font-family: $font-stack;
-  position: absolute;
-  top: 10px;
-  margin-left: 1050px;
+  float: right;
+  margin: 16px;
   a{
   color: $navy-accent;
   text-decoration: none;
+  float: right;
   }
 }
 .logos{
@@ -229,12 +229,12 @@ ul{
     display: none;
   }
   .blogaside{
-    text-align: center;
+    display: inline;
   }
   #aside{
     width: 100%;
-    text-align: center;
     vertical-align: none;
+    display: inline;
   }
   .adimage{
     display: none;
@@ -248,10 +248,22 @@ ul{
   .authorsocial{
     font-size: 25%;
   }
-  .popularposts a p{
-    display: none;
+  .popularposts a {
+    width: 100%;
   }
   .sitefooter{
     text-align: center;
+  }
+  .post{
+    width: 100%;
+  }
+  #blogroll{
+    width: 100%;
+  }
+  .iconshare{
+    display: block;
+  }
+  ul{
+    margin-left: -27px;
   }
 }
