@@ -1,0 +1,257 @@
+$font-stack: 'Roboto Condensed', sans-serif;
+$background-color: #0073b5;
+$navy-accent: #03354f;
+$lighter-grey: #a1b2bd;
+
+body{
+  margin: 0px;
+}
+.headcontainer{
+  background-color: $background-color;
+}
+header{
+  background-image: url(../Images/wave.jpg);
+  opacity: .5;
+  width: 100%;
+  min-height: 400px;
+}
+header:hover{
+  opacity: 1;
+}
+.topleft{
+  font-family: $font-stack;
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+
+  a{
+    color: $navy-accent;
+    text-decoration: none;
+  }
+}
+.topright{
+  font-family: $font-stack;
+  position: absolute;
+  top: 10px;
+  margin-left: 1050px;
+  a{
+  color: $navy-accent;
+  text-decoration: none;
+  }
+}
+.logos{
+  height: 22px;
+}
+.title{
+  position: absolute;
+  top: 160px;
+  margin-left: 300px;
+  font-family: $font-stack;
+  font-size: 72px;
+  color: $navy-accent;
+}
+.subtitle{
+  position: absolute;
+  top: 275px;
+  margin-left: 500px;
+  font-family: $font-stack;
+  font-size: 18px;
+  color: $navy-accent;
+}
+.blogaside{
+  width: 100%;
+  display: inline-block;
+  margin: 10px;
+}
+#blogroll{
+  width: 65%;
+  display: inline-block;
+}
+.bloginfo{
+  line-height: 60px;
+}
+.blogtitle{
+  font-family: $font-stack;
+  color: $navy-accent;
+  font-size: 60px;
+  text-align: center;
+}
+.navpostinfo{
+  display: inline-block;
+}
+.author{
+  height: 40px;
+  border-radius: 100%;
+  opacity: .5;
+}
+.authorpage{
+  font-family: $font-stack;
+  font-size: 12px;
+}
+.postdate{
+  font-family: $font-stack;
+  color: grey;
+}
+p{
+  font-family: $font-stack;
+  color: grey;
+}
+blockquote{
+  font-family: $font-stack;
+  color: $background-color;
+  font-size: 30px;
+  border-left: 2px solid gray;
+  padding: 2px;
+}
+#aside{
+width: 30%;
+display: inline-block;
+vertical-align: top;
+margin-left: 30px;
+}
+.authorprofile{
+  line-height: 1px;
+}
+.authorimage{
+  background-color:$background-color;
+  width: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.author:hover{
+  opacity: 1;
+}
+#author2{
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  font-family: $font-stack;
+  color: $background-color;
+  text-align: center;
+}
+.authorsocial{
+  font-family: $font-stack;
+  color: grey;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+.adimage{
+  background-color: $background-color;
+  width: 300px;
+  margin-left: 4%;
+  img{
+  width: 100%;
+  }
+}
+.adimage img:hover{
+  opacity: 1;
+}
+.padadd{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .5;
+  width: 150px;
+}
+#aboutad{
+  font-family: $font-stack;
+  float: right;
+  color: grey;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+.sidebarhead{
+  text-align: left;
+}
+.sideposttext{
+  color: $lighter-grey;
+}
+.popularposts{
+  background-color: $background-color;
+  width:100%;
+  a{
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+    position: relative;
+      p{
+        position: absolute;
+        bottom: -70px;
+        color: $navy-accent;
+        font-size: 4em;
+        font-family: $font-stack;
+        transition: color .1s;
+       }
+  }
+}
+.popularposts a p:hover{
+  color: white;
+}
+.footerimages{
+  width:100%;
+  display: inline-block;
+  opacity: .5;
+}
+.footerimages:hover{
+  opacity: 1;
+}
+#footer{
+  background-color: $navy-accent;
+}
+#footer:hover{
+  opacity: 1;
+}
+.sitefooter{
+  display: inline-block;
+}
+.sitenav li{
+  display: inline-block;
+  font-family: $font-stack;
+  color:grey;
+}
+ul{
+  margin-left: 420px;
+}
+@media all and (max-width: 320px){
+  .top-right{
+    display: none;
+  }
+  .title{
+    top: 25%;
+    margin-left: 8%;
+    font-size: 200%;
+  }
+  .subtitle{
+    display: none;
+  }
+  .blogaside{
+    text-align: center;
+  }
+  #aside{
+    width: 100%;
+    text-align: center;
+    vertical-align: none;
+  }
+  .adimage{
+    display: none;
+  }
+  #aboutad{
+    display: none;
+  }
+  .authorprofile{
+    display: none;
+  }
+  .authorsocial{
+    font-size: 25%;
+  }
+  .popularposts a p{
+    display: none;
+  }
+  .sitefooter{
+    text-align: center;
+  }
+}

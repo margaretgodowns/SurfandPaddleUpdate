@@ -1,0 +1,232 @@
+body{
+  margin: 0px;
+}
+.logos{
+  height: 22px;
+}
+.homebar{
+  position:absolute;
+  top:5;
+  left:0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.waves{
+  width: 100%;
+}
+.image{
+  position: relative;
+  width: 100%;
+}
+.title{
+  position: absolute;
+  top: 160px;
+  margin-left: 300px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 72px;
+  color: white;
+}
+.subtitle{
+  position: absolute;
+  top: 275px;
+  margin-left: 500px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #03354f;
+}
+.topleft{
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+}
+.topleft a{
+  color: #03354f;
+  text-decoration: none;
+}
+.topright{
+  font-family: 'Roboto Condensed', sans-serif;
+  position: absolute;
+  top: 10px;
+  margin-left: 1050px;
+}
+.topright a{
+  color: #03354f;
+  text-decoration: none;
+}
+.headcontainer{
+  background-color: #0073b5;
+}
+header{
+  background-image: url(../Images/wave.jpg);
+  opacity: .5;
+  width: 100%;
+  min-height: 400px;
+}
+header:hover{
+  opacity: 1;
+}
+.popularposts{
+  background-color: #0073b5;
+  width:100%;
+}
+.popularposts a{
+  float: left;
+  margin: 0 auto;
+  width: 25%;
+  position: relative;
+
+}
+.popularposts a p{
+  position: absolute;
+  bottom: -70px;
+  color: #03354f;
+  font-size: 4em;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: color .1s;
+}
+.popularposts a p:hover{
+  color: white;
+}
+.blogtitle{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #03354f;
+  font-size: 60px;
+  text-align: center;
+}
+.author{
+  height: 40px;
+  border-radius: 100%;
+  opacity: .5;
+}
+.authorimage{
+  background-color:#0073b5;
+  width: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+#author2{
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.author:hover{
+  opacity: 1;
+}
+.authorpage{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+.navpostinfo{
+  display: inline-block;
+}
+.postdate{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+}
+a .postdate{
+  text-decoration: none;
+}
+.blogaside{
+  width: 100%;
+  display: inline-block;
+  margin: 10px;
+}
+#blogroll{
+  width: 65%;
+  display: inline-block;
+}
+#aside{
+width: 30%;
+display: inline-block;
+vertical-align: top;
+margin-left: 30px;
+}
+.padadd{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .5;
+  width: 150px;
+}
+.adimage{
+  background-color: #0073b5;
+  width: 300px;
+  margin-left: 4%;
+}
+.adimage img{
+  width: 100%;
+}
+.adimage img:hover{
+  opacity: 1;
+}
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+}
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #0073b5;
+  text-align: center;
+}
+.authorsocial{
+  font-family:'Roboto Condensed', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+#aboutad{
+  font-family: 'Roboto Condensed', sans-serif;
+  float: right;
+  color: grey;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+blockquote{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #0073b5;
+  font-size: 30px;
+  border-left: 2px solid gray;
+  padding: 2px;
+}
+.sideposttext{
+  color: #a1b2bd;
+}
+.footerimages{
+  width:100%;
+  display: inline-block;
+  opacity: .5;
+}
+.footerimages:hover{
+  opacity: 1;
+}
+.sitefooter{
+  display: inline-block;
+}
+#tiylogo{
+  /*position: absolute;*/
+}
+.sitenav li{
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:grey;
+}
+ul{
+  margin-left: 420px;
+}
+#footer{
+  background-color: #033550;
+}
+#footer:hover{
+  opacity: 1;
+}
+.bloginfo{
+  line-height: 60px;
+}
+.sidebarhead{
+  text-align: left;
+}
+.authorprofile{
+  line-height: 1px;
+}
